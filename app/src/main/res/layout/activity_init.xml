@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InitActivity">
+    android:background="@color/purple_200"
+    android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_start"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="32sp"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="@string/whats_is_your_name"
+        android:autofillHints="name"
+        android:inputType="textAutoComplete" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/save"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/purple_700"
+        android:textSize="24sp" />
+
+</RelativeLayout>

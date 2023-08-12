@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">motivation</string>
+    <string name="app_name">Motivation</string>
+    <string name="image_menu">Image menu</string>
+    <string name="message_motivation">Message motivation</string>
+    <string name="new_message">New message</string>
+    <string name="hello_person">Hello person</string>
+    <string name="lets_start">Lets start?</string>
+    <string name="whats_is_your_name">Whats is your name?</string>
+    <string name="validation_mandatory_name">Inform your name.</string>
+    <string name="save">Save</string>
 </resources>
